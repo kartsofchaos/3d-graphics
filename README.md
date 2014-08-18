@@ -27,6 +27,14 @@ To facilitate the work for the person who will be adding the 3D-related work int
 - `rigs` - Contains only **finished** rigs.
 - `textures` - Contains only **finished** textures.
 
+**Notice!** When adding completed object into the root-folder, make sure to put them into the correct sub-folder. The following sub-folders are:
+
+- `actors` - Characters and vehicles
+- `environment` - Environment, ornaments, and accessories
+- `hud` - HUD interface, panels
+- `menus` - Main menu, pause menu, lobby menu, ...
+- `skills` - Skills 
+
 File formats
 ------------
 

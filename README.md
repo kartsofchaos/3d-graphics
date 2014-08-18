@@ -32,7 +32,7 @@ File formats
 
 The following file format should be followed:
 
-- Exported 3D files - `.fbx`
+- Exported 3D files - `.fbx` with pivot point in origin `[X=0, Y=0, Z=0]`
 - Exported textures - `.png` with size `2048x2048`
 
 Naming convention

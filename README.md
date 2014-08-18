@@ -32,7 +32,7 @@ File formats
 
 The following file format should be followed:
 
-- Exported 3D files - `.fbx`
+- Exported 3D files - `.fbx` with pivot point in origin `[X=0, Y=0, Z=0]`
 - Exported textures - `.png` with size `2048x2048`
 
 Naming convention
@@ -51,7 +51,11 @@ An object should have an unique and descriptive name which consists of several s
 
 Model examples:
 - `FencePoleWood.fbx` - It is a part of a `Fence`. It is a component `Pole`. It has the material `Wood`.
-- `CreateMedium.fbx` - It is a `Create`. It has the size `Medium`.
-- `CreateMetalSmall.fbx` - It is a `Create`. It has the material `Metal`. It has the size `Small`.
+- `CrateMedium.fbx` - It is a `Crate`. It has the size `Medium`.
+- `CrateMetalSmall.fbx` - It is a `Crate`. It has the material `Metal`. It has the size `Small`.
 - `HouseCorner.fbx` - It is a `House`. It has the name `Corner`.
 - `PlankBrokenLong.fbx` - It is a `Plank`. It is `Broken`. It has the size `Long`.
+
+Texture examples:
+- `CrateSmallWoodDiffuse.png` - The "standard" `Wood` texture to a `Small` `Crate`
+- `CrateSmallWoodNormal.png` - The normal map to the texture above.

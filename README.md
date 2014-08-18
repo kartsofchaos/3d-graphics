@@ -57,5 +57,5 @@ Model examples:
 - `PlankBrokenLong.fbx` - It is a `Plank`. It is `Broken`. It has the size `Long`.
 
 Texture examples:
-- `CrateSmallWoodDiffuse` - The "standard" `Wood` texture to a `Small` `Crate`
-- `CrateSmallWoodNormal` - The normal map to the texture above.
+- `CrateSmallWoodDiffuse.png` - The "standard" `Wood` texture to a `Small` `Crate`
+- `CrateSmallWoodNormal.png` - The normal map to the texture above.

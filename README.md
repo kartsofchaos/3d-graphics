@@ -42,16 +42,16 @@ The naming convention to follow are [CamelCase](http://en.wikipedia.org/wiki/Cam
 
 An object should have an unique and descriptive name which consists of several segments. Below is a simple guide to name your `object`. Read each line, in this order, and does the question fit your object, add it to the filename:
 
-- `Object` - If the `object` is a component of another object, what type is **that** object? If _not_, what type is **this** object?
-- `Component` - If the `object` is a component of another object, what is **this** compponent called?
-- `Name`- If the `object` has a name, what is **this** name?
-- `Proptery` - If the `object` has a special property, what property **this**?
-- `Material` - If the `object` has multiple variations of materials, what material is **this**?
-- `Size` - If the `object` has multiple variations of sizes, what size is **this**?
+- If the `object` is a component of another object, what `Type` is **that** object? If _not_, what `Type` is **this** object?
+- If the `object` is a component of another object, what is **this** `Component` called?
+- If the `object` has a name, what is **this** `Name`?
+- If the `object` has a special property, what is **this** `Property` called?
+- If the `object` has multiple variations of materials, what `Material` is **this**?
+- If the `object` has multiple variations of sizes, what `Size` is **this**?
 
 Model examples:
 - `FencePoleWood.fbx` - It is a part of a `Fence`. It is a component `Pole`. It has the material `Wood`.
 - `CreateMedium.fbx` - It is a `Create`. It has the size `Medium`.
 - `CreateMetalSmall.fbx` - It is a `Create`. It has the material `Metal`. It has the size `Small`.
 - `HouseCorner.fbx` - It is a `House`. It has the name `Corner`.
-- `PlankBrokenLong` - It is a `Plank`. It is `Broken`. It has the size `Long`.
+- `PlankBrokenLong.fbx` - It is a `Plank`. It is `Broken`. It has the size `Long`.

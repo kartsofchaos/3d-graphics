@@ -31,9 +31,10 @@ To facilitate the work for the person who will be adding the 3D-related work int
 
 - `actors` - Characters and vehicles
 - `environment` - Environment, ornaments, and accessories
+- `game-modes` - Game modes stuff
 - `hud` - HUD interface, panels
 - `menus` - Main menu, pause menu, lobby menu, ...
-- `skills` - Skills 
+- `skills` - Skills stuff
 
 File formats
 ------------
